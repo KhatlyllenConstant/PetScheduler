@@ -25,6 +25,7 @@ Custo para manter o sistema no ar caso tenha muitas requisições
 
 ## Modelagem
 
-Foi utilizado o Trello, para organizar as atividades e avaliações a serem realizadas, de acordo com cada cronograma. Foi dividido em três partes, sendo classificadas como N1, N2 e N3.
+Foi utilizado o Trello, para organizar as atividades e avaliações a serem realizadas, de acordo com cada cronograma. 
+Foi dividido em três partes, sendo classificadas como N1, N2 e N3.
 
 
