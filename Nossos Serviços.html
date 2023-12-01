@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Minha página</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
 
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+        color: #333;
+        text-align: center;
+      }
+
+      .row {
+        display: flex;
+        justify-content: center;
+      }
+
+      .col-md-4 {
+        margin: 0 10px; /* Ajuste as margens conforme necessário */
+      }
+
+      .card {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        overflow: hidden;
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .card-body {
+        padding: 20px;
+        text-align: center; /* Centraliza o conteúdo dentro da card-body */
+      }
+
+      .card-title {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .card-text {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      .btn-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+
+      .btn-link:hover {
+        background-color: #666;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h1>Nossos Serviços</h1>
+
+      <div class="row">
+        <!-- Postagem 1 -->
+        <div class="col-md-4 my-3">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmnbE2kYW-a3Dp05xlmsqJf-EEmcXQUoCUKQ&usqp=CAU"
+              class="card-img-top"
+              alt="Postagem 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Clinica veterinaria</h5>
+              <p class="card-text"></p>
+              <a href="file:///C:/Users/k.constantino/Downloads/Agendamento.html" class="btn-link">Agendar</a>
+            </div>
+          </div>
+        </div>
+        <!-- Postagem 2 -->
+        <div class="col-md-4 my-3">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFl4CrgXcPFOhKeb5p9gGEGS0arxQ0T9O2LaQDgKHJY9XfRzoh1YjfbHuKftdj6tLhyQ&usqp=CAU"
+              class="card-img-top"
+              alt="Postagem 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Banho e Tosa</h5>
+              <p class="card-text"></p>
+              <a href="file:///C:/Users/k.constantino/Downloads/Agendamento.html"class="btn-link">Agendar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
