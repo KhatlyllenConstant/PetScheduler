@@ -6,6 +6,7 @@ const app = express();
 const port = 3000;
 
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, 'public')));
 
 const usuarios = {};
 const pets = {};
@@ -54,6 +55,10 @@ app.post('/agendar_horario', (req, res) => {
   } else {
     res.json({'error': 'Horário indisponível ou serviço não existente'});
   }
+});
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'new%201.html'));
 });
 
 app.listen(port, () => {
